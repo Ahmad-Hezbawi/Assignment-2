@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <!-- CSS Page -->
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="../CSS/CSS.css">
+       
+        <title>CSS</title>
+      
+    </head>
+      <!-- Nav bar -->
+      <section>
+        <div id = "index">
+        <ul>
+            <li><a href="Index.html">Home</a></li>
+            <li><a href="CSS.html">CSS</a></li>
+            <li><a href="HTML.html">HTML</a></li>
+            <li><a href="php.html">PHP</a></li>
+            <li><a href="JS.html">Javascript</a></li>
+            <li class="dropdown">
+              <a href="AboutUs.html" class="dropbtn">AboutUS</a>
+              <div class="dropdown-content">
+                <a href="AboutUs.html">Ahmad Hezbawi</a>
+                <a href="AboutUs.html">Mustafa Abuthuraya</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+        </section>
+        <!-- Content -->
+        <section>
+          <div id = "code">
+            <h1>
+              Cascading Style Sheet
+          </h1>
+          <pre>
+           ul {
+             list-style-type: none;
+             margin: 0;
+             padding: 0;
+             overflow: hidden;
+             background-color: #333;
+           }
+           
+           li {
+             float: left;
+           }
+           
+           li a, .dropbtn {
+             display: inline-block;
+             color: white;
+             text-align: center;
+             padding: 14px 16px;
+             text-decoration: none;
+           }
+           
+           li a:hover, .dropdown:hover .dropbtn {
+             background-color: red;
+           }
+           
+           li.dropdown {
+             display: inline-block;
+           }
+           
+           .dropdown-content {
+             display: none;
+             position: absolute;
+             background-color: #f9f9f9;
+             min-width: 160px;
+             box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+             z-index: 1;
+           }
+           
+           .dropdown-content a {
+             color: black;
+             padding: 12px 16px;
+             text-decoration: none;
+             display: block;
+             text-align: left;
+           }
+           
+           .dropdown-content a:hover {background-color: #f1f1f1;}
+           
+           .dropdown:hover .dropdown-content {
+             display: block;
+           }
+         
+           img {
+             height: 200px;
+             width: 150px;
+           }
+         
+           h1{
+               color: blue;
+           }
+           
+          </pre>
+          </div>
+          </section>
+
+     
+         
+      <section>
+        <div>
+       <img id = "image-CSSpg" src="../Images/CSS1.jpg"width="250" height="400"/>
+       <img id="image-CSSpg" src="../Images/CSS2.jpg"width="250" height="400"/>
+      </div>
+      </section>
+
+      <section>
+        <footer>
+          <p>
+            © 2020 Owl
+          </p>
+        </footer>
+      </section>
+    
+    </body>
+</html>
